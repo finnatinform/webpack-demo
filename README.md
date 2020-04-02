@@ -1,3 +1,11 @@
+# How to make it run
+```
+npm install
+```
+```
+npm run start:dev
+```
+# Internal Stuff
 ## Nice Tutorials
 Server: https://medium.com/the-andela-way/how-to-set-up-an-express-api-using-webpack-and-typescript-69d18c8c4f52
 Combined with: https://www.npmjs.com/package/webpack-shell-plugin-next
