@@ -4,10 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start:dev": "webpack --config webpack.config.server.js",
-    "run:dev": "cd dist && nodemon --delay 10 server.js",
-    "test": "webpack --config webpack.config.client.js && webpack --config webpack.config.server.js",
-    "help": "nodemon --help config"
+    "start:dev": "webpack --config webpack.config.client.js && webpack --config webpack.config.server.js",
+    "run:dev": "cd dist && nodemon --delay 10 server.js"
   },
   "keywords": [],
   "author": "",
